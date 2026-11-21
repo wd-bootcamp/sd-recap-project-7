@@ -1,4 +1,4 @@
-# 5: Edit a Todo
+# 5. Edit a Todo
 
 Change the title of a todo. The API route is the one from issue 4.
 

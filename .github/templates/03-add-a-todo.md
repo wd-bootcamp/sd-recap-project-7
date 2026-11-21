@@ -1,4 +1,4 @@
-# 3: Add a Todo
+# 3. Add a Todo
 
 Create a todo through the app.
 
@@ -13,7 +13,6 @@ Create a todo through the app.
 ## Acceptance Criteria
 
 - [ ] **API:** `POST /api/todos` with `{ "title": "..." }` answers 201 with the new todo (`done` is `false`). The title is trimmed.
-- [ ] **API:** a missing or empty title answers 400 `{ "error": "<message>" }`. A body that is not valid JSON answers 400, too.
 - [ ] **UI:** a form with a text field and an "Add" button is shown above the list.
 - [ ] **UI:** the form does not send an empty title (the button is disabled or a message is shown).
 - [ ] **UI:** after saving, the field is empty and the new todo is in the list.
@@ -21,7 +20,7 @@ Create a todo through the app.
 
 ## Tasks
 
-- [ ] Check the 201 and the 400 cases in Bruno. Look at the response body, not only at the status code.
+- [ ] Check the 201 case in Bruno. Look at the response body, not only at the status code.
 - [ ] The API call is a function in `src/api.ts`.
 - [ ] After the request, tell SWR to load the list again (`mutate`).
 

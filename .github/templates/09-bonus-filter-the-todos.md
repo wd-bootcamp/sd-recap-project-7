@@ -1,4 +1,4 @@
-# 9: Bonus - Filter the Todos
+# 9. Bonus: Filter the Todos
 
 This story is optional. Do it after the core stories.
 

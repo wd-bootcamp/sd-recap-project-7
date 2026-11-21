@@ -1,4 +1,4 @@
-# 6: Delete a Todo
+# 6. Delete a Todo
 
 Complete the CRUD operations.
 
@@ -13,7 +13,7 @@ Complete the CRUD operations.
 ## Acceptance Criteria
 
 - [ ] **API:** `DELETE /api/todos/:id` answers 204 without a body and removes the todo.
-- [ ] **API:** an unknown or invalid `id` answers 404 `{ "error": "Todo not found" }`. Deleting the same todo twice gives 404 the second time.
+- [ ] **API:** an unknown `id` answers 404 `{ "error": "Todo not found" }`. Deleting the same todo twice gives 404 the second time.
 - [ ] **UI:** every todo has a "Delete" button. The todo is gone from the list after the click.
 - [ ] The todo is still gone after a reload of the page, and also in the database.
 
