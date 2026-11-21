@@ -12,7 +12,7 @@ This is an individual project: everybody creates their own repository.
 
 1. Click on the "Use this template" button on the GitHub template repository page.
 2. Choose **Public** as the visibility.
-3. Open the **"Issues"** tab of your new repository. After a short moment, 9 issues appear: 1 setup issue, 7 core stories and 1 bonus story.
+3. Open the **"Issues"** tab of your new repository. After a short moment, 12 issues appear: 1 setup issue, 7 core stories and 4 bonus stories.
 
 > 💡 Do not run the action twice: if the issues are already there, you are done with this step. Only if the "Issues" tab is still empty after a few minutes, open the **"Actions"** tab, select the workflow **create-issues** and click "Run workflow".
 
@@ -32,4 +32,4 @@ cd backend && npm i
 cd ../frontend && npm i
 ```
 
-Then follow issue 1. Before you write your first prompt, set up your security baseline as described in Recap Project 6.
+Then follow issue 1.

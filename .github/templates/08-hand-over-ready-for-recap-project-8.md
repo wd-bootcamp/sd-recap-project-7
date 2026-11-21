@@ -1,4 +1,4 @@
-# 8: Hand Over - Ready for Recap Project 8
+# 8. Hand Over: Ready for Recap Project 8
 
 In Recap Project 8, you add security and tests to this project. This issue makes sure that someone who has never seen it can start it, and that it can be extended.
 
@@ -15,9 +15,11 @@ In Recap Project 8, you add security and tests to this project. This issue makes
 - [ ] The `README.md` explains how to start the project from a fresh clone: install, create `backend/.env` from `backend/.env.example`, start the backend and the frontend, and which URLs to open. A classmate can follow it without asking you.
 - [ ] `docs/api-contract.md` matches your API: every endpoint and every error. You checked each example in Bruno.
 - [ ] `backend/.env.example` lists every variable that the code reads, with placeholders only. No connection string or password is in the repository (search the code and the history).
-- [ ] The structure is clean: routes, the model and the error handlers are in separate files, all API calls of the frontend are in `src/api.ts`, and there is no leftover code and no unused file.
+- [ ] The structure is clean: the model is in its own file, all API calls of the frontend are in `src/api.ts`, and there is no leftover code and no unused file.
 - [ ] `npm run typecheck` (backend) and `npm run check` and `npm run build` (frontend) run without errors.
 - [ ] In the `README.md`, write two or three sentences on where you would add an owner for each todo (a user who owns it) in the backend and in the frontend.
+- [ ] `backend/src/app.ts` exports `app` and does not listen, so that tests can import it.
+- [ ] You did **not** add a user or a login: that is part of Recap Project 8.
 - [ ] Every user story works end to end in the browser.
 
 ## Tasks
